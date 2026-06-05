@@ -1,7 +1,7 @@
 
 
 export const HeaderComponent = () =>{
-    return <div className=" ">test 1</div>
+    return <div className="text-2xl font-bold underline">test 1</div>
 }
 
 

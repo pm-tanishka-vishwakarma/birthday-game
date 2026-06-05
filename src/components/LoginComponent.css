@@ -1,3 +1,25 @@
 .form-wrapper {
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    width : 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+.form-fields{
+    flex-direction: column;
+}
+.form-field{
+    margin: 4px           ;
+    display: flex;
+    justify-content: space-between;
 }

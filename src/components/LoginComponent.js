@@ -8,11 +8,27 @@ const LoginComponent = () =>{
     const [userName, setUserName] = useState("");
     const [password, setPassword]= useState("");
     return <div className="form-wrapper">
+        <div className="login-form">
         <h2>Login Form</h2>
+        <div className="form-fields">
         <form>
-            <input type="text"  id="name" value="username"/> 
-            <input type="password" id="password"  value="password" /> 
+            <div  className="form-field">
+            <div> Username</div>
+            <div><input type="text"  id="name" value="username"/> </div>
+            </div>
+            <div  className="form-field">
+            <div> Password</div>
+            <div> <input type="password" id="password"  value="password" /> </div>
+
+            </div>
+    
+           
+            <button className="bg-amber-400" monClick={(e)=>e.preventDefault() }>Login</button>
         </form>
+        </div>
+       
+        </div>
+        
 
     </div>
 }
